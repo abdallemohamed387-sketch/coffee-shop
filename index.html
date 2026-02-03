@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🛒 My Shop</h1>
+        <div class="cart-info">
+            Cart: <span id="cart-count">0</span> items
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products">
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product 1">
+            <h3>Product One</h3>
+            <p class="price">$25</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product 2">
+            <h3>Product Two</h3>
+            <p class="price">$40</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product 3">
+            <h3>Product Three</h3>
+            <p class="price">$15</p>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+    </section>
+
+    <!-- Order Summary -->
+    <section class="order-summary">
+        <h2>Order Summary</h2>
+        <p>Total Items: <span id="total-items">0</span></p>
+        <p>Total Price: <span id="total-price">$0</span></p>
+        <button class="checkout-btn">Checkout</button>
+    </section>
+
+</body>
+</html>
